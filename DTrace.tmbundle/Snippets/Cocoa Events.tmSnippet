@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>objc$target:NSApplication:-sendEvent*:entry
+	<string>objc\$target:NSApplication:-sendEvent*:entry
 {
 	self-&gt;evtPointer = (user_addr_t)arg2;
 
