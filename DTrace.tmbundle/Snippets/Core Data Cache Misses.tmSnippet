@@ -3,21 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Syntax Summary:
+	<string>CoreData\$target:CoreData::BeginFaultCacheMiss
+{
+	self-&gt;cacheMissStart = vtimestamp;
+	printf("Cache Miss: %s",copyinstr(arg0));
+	ustack();
+}
 
-   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
-   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
-   Substitutions    ${TM_FILENAME/.*/\U$0/}
-   
-   Tab Stops        $1, $2, $3, … $0 (optional)
-   Placeholders     ${1:default value}
-   Mirrors          &lt;${2:tag}&gt;…&lt;/$2&gt;
-   Transformations  &lt;${3:tag}&gt;…&lt;/${3/(\w*).*/\U$1/}&gt;
+CoreData\$target:CoreData::EndFaultCacheMiss
+{
+	self-&gt;cacheMissEnd = (vtimestamp - self-&gt; cacheMissStart) / 1000;
+	printf("Cache Miss Duration: %u",self-&gt;cacheMissEnd);
+	ustack();
+}
 
-   Shell Code       `date`, `pwd`
+CoreData\$target:CoreData::BeginRelationshipCacheMiss
+{
+	self-&gt;relationshipCacheMissStart = vtimestamp;
+	printf("RCM Relationship: %s RCM Source: %s",copyinstr(arg0),copyinstr(arg1));
+	ustack();
+}
 
-   Escape Codes     \$ \` \\
-</string>
+CoreData\$target:CoreData::EndRelationshipCacheMiss
+{
+	self-&gt; relationshipCacheMissEnd= (vtimestamp - self-&gt; relationshipCacheMissStart) / 1000;
+	printf("RCM Duration: %u",self-&gt; relationshipCacheMissEnd);
+	ustack();
+}</string>
 	<key>name</key>
 	<string>Core Data Cache Misses</string>
 	<key>scope</key>

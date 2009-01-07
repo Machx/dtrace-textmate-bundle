@@ -3,21 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Syntax Summary:
+	<string>CoreData\$target:CoreData::BeginFault
+{
+	self-&gt;faultStart = vtimestamp;
+	printf("Fault Object: %s",copyinstr(arg0));
+	ustack();
+}
 
-   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
-   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
-   Substitutions    ${TM_FILENAME/.*/\U$0/}
-   
-   Tab Stops        $1, $2, $3, … $0 (optional)
-   Placeholders     ${1:default value}
-   Mirrors          &lt;${2:tag}&gt;…&lt;/$2&gt;
-   Transformations  &lt;${3:tag}&gt;…&lt;/${3/(\w*).*/\U$1/}&gt;
+CoreData\$target:CoreData::EndFault
+{
+	self-&gt;faultEnd= (vtimestamp - self-&gt;faultStart) / 1000;
+	printf("Fault Duration: %u",self-&gt;faultEnd);
+	ustack();
+}
 
-   Shell Code       `date`, `pwd`
+CoreData\$target:CoreData::BeginRelationshipFault
+{
+	self-&gt;relationshipFaultStart = vtimestamp;
+	printf("Relationship Fault Source: %s Relationship: %s",copyinstr(arg0),copyinstr(arg1));
+	ustack();
+}
 
-   Escape Codes     \$ \` \\
-</string>
+CoreData\$target:CoreData::EndRelationshipFault
+{
+	self-&gt;relationshipFaultEnd= (vtimestamp - self-&gt;relationshipFaultStart) / 1000;
+	printf("Relationship Fault Duration: %u",self-&gt;relationshipFaultEnd);
+	ustack();
+}</string>
 	<key>name</key>
 	<string>Core Data Faults</string>
 	<key>scope</key>

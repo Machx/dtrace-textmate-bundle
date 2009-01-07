@@ -3,21 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Syntax Summary:
+	<string>objc$target:NSApplication:-sendEvent*:entry
+{
+	self-&gt;evtPointer = (user_addr_t)arg2;
 
-   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
-   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
-   Substitutions    ${TM_FILENAME/.*/\U$0/}
-   
-   Tab Stops        $1, $2, $3, … $0 (optional)
-   Placeholders     ${1:default value}
-   Mirrors          &lt;${2:tag}&gt;…&lt;/$2&gt;
-   Transformations  &lt;${3:tag}&gt;…&lt;/${3/(\w*).*/\U$1/}&gt;
+	self-&gt;theEvent = (unsigned int)*(uint32_t*)copyin(self-&gt;evtPointer + 4, 4);
 
-   Shell Code       `date`, `pwd`
+	this-&gt;eventStr = self-&gt;theEvent == 1 ? "Left Mouse Down" : self-&gt;theEvent == 2 ? "Left Mouse Up" : self-&gt;theEvent == 3 ? "Right Mouse Down" : self-&gt;theEvent == 4 ? "Right Mouse Up" : self-&gt;theEvent == 5 ? "Mouse Moved" : self-&gt;theEvent == 6 ? "Left Mouse Dragged" : self-&gt;theEvent == 7 ? "Right Mouse Dragged" : self-&gt;theEvent == 8 ? "Mouse Entered" : self-&gt;theEvent == 9 ? "Mouse Exited" : self-&gt;theEvent == 10 ? "Key Down" : self-&gt;theEvent == 11 ? "Key Up" : self-&gt;theEvent == 12 ? "Flags Changed" : self-&gt;theEvent == 13 ? "AppKit Defined" : self-&gt;theEvent == 14 ? "System Defined" : self-&gt;theEvent == 15 ? "Application Defined" : self-&gt;theEvent == 16 ? "Periodic" : self-&gt;theEvent == 17 ? "Cursor Update" : self-&gt;theEvent == 22 ? "Scroll Wheel" : self-&gt;theEvent == 23 ? "Tablet Point" : self-&gt;theEvent == 24 ? "Tablet Proximit" : self-&gt;theEvent == 25 ? "Other Mouse Down" : self-&gt;theEvent == 26 ? "Other Mouse Up" : self-&gt;theEvent == 27 ? "Other Mouse Dragged" : "Unknown";
 
-   Escape Codes     \$ \` \\
-</string>
+	printf("Event Kind: %i Event Type: %s",self-&gt;theEvent,this-&gt;eventStr);
+
+	ustack();
+}</string>
 	<key>name</key>
 	<string>Cocoa Events</string>
 	<key>scope</key>

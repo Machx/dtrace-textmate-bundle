@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Syntax Summary:
+	<string>CoreData\$target:CoreData::BeginFetch
+{
+	self-&gt;fetchStart = vtimestamp;
+	printf("Entity: %s",copyinstr(arg0));
+	ustack();
+}
 
-   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
-   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
-   Substitutions    ${TM_FILENAME/.*/\U$0/}
-   
-   Tab Stops        $1, $2, $3, … $0 (optional)
-   Placeholders     ${1:default value}
-   Mirrors          &lt;${2:tag}&gt;…&lt;/$2&gt;
-   Transformations  &lt;${3:tag}&gt;…&lt;/${3/(\w*).*/\U$1/}&gt;
-
-   Shell Code       `date`, `pwd`
-
-   Escape Codes     \$ \` \\
-</string>
+CoreData\$target:CoreData::EndFetch
+{
+	self-&gt;fetchEnd = (vtimestamp - self-&gt; fetchStart) / 1000;
+	printf("Fetch Count: %i Duration: %u",arg0,self-&gt;fetchEnd;
+	ustack();
+}</string>
 	<key>name</key>
 	<string>Core Data Fetches</string>
 	<key>scope</key>

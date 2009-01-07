@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Syntax Summary:
+	<string>pid$target::WaitNextEvent:entry
+{
+	self-&gt;evtPointer = (user_addr_t)arg1;
+	ustack();
+}
 
-   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
-   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
-   Substitutions    ${TM_FILENAME/.*/\U$0/}
-   
-   Tab Stops        $1, $2, $3, … $0 (optional)
-   Placeholders     ${1:default value}
-   Mirrors          &lt;${2:tag}&gt;…&lt;/$2&gt;
-   Transformations  &lt;${3:tag}&gt;…&lt;/${3/(\w*).*/\U$1/}&gt;
+pid$target::WaitNextEvent:return
+{
+	self-&gt;theEvent = (unsigned int)*(uint16_t*)copyin(self-&gt;evtPointer, 4);
 
-   Shell Code       `date`, `pwd`
+	this-&gt;eventStr = self-&gt;theEvent == 0 ? "Null Event" : self-&gt;theEvent == 1 ? "Mouse Down" : self-&gt;theEvent == 2 ? "Mouse Up" : self-&gt;theEvent == 3 ? "Key Down" : self-&gt;theEvent == 4 ? "Key Up" : self-&gt;theEvent == 5 ? "Auto Key" : self-&gt;theEvent == 6 ? "Update Event" : self-&gt;theEvent == 7 ? "Disk Event" : self-&gt;theEvent == 8 ? "Activate Event" : self-&gt;theEvent == 15 ? "OS Event" : self-&gt;theEvent == 23 ? "High Level Event" : "Unknown";
 
-   Escape Codes     \$ \` \\
-</string>
+	printf("Event Kind: %i Event Type: %s",self-&gt;theEvent,this-&gt;eventStr);
+	ustack();
+}</string>
 	<key>name</key>
 	<string>Carbon Events</string>
 	<key>scope</key>

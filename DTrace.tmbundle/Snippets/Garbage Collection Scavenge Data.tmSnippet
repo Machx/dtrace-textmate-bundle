@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Syntax Summary:
+	<string>pid\$target::auto_trace_phase_begin:entry
+/arg1 == 0 &amp;&amp; arg2 == 3/
+{
+	self-&gt;starttime = walltimestamp/1000;
+	ustack();
+}
 
-   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
-   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
-   Substitutions    ${TM_FILENAME/.*/\U$0/}
-   
-   Tab Stops        $1, $2, $3, … $0 (optional)
-   Placeholders     ${1:default value}
-   Mirrors          &lt;${2:tag}&gt;…&lt;/$2&gt;
-   Transformations  &lt;${3:tag}&gt;…&lt;/${3/(\w*).*/\U$1/}&gt;
-
-   Shell Code       `date`, `pwd`
-
-   Escape Codes     \$ \` \\
-</string>
+pid\$target::auto_trace_phase_end:entry
+/arg1 == 0 &amp;&amp; arg2 == 3/
+{
+	printf("AutoZone - Zone %i Is Generational %i - Bytes Reclaimed: %i Objects Reclaimed: %i - Duration: %u",arg0,arg1,(int)arg4,(int)arg3,(walltimestamp/1000) - self-&gt;starttime);
+	ustack();
+}</string>
 	<key>name</key>
 	<string>Garbage Collection Scavenge Data</string>
 	<key>scope</key>

@@ -3,21 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Syntax Summary:
-
-   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
-   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
-   Substitutions    ${TM_FILENAME/.*/\U$0/}
-   
-   Tab Stops        $1, $2, $3, … $0 (optional)
-   Placeholders     ${1:default value}
-   Mirrors          &lt;${2:tag}&gt;…&lt;/$2&gt;
-   Transformations  &lt;${3:tag}&gt;…&lt;/${3/(\w*).*/\U$1/}&gt;
-
-   Shell Code       `date`, `pwd`
-
-   Escape Codes     \$ \` \\
-</string>
+	<string>pid\$target::auto_trace_collection_end:entry
+{
+	printf("AutoZone - Objects Reclaimed: %i - Bytes Reclaimed: %i - Bytes in Use: %i - Total: %i",(int)arg2,(int)arg3,(int)arg4,(int)arg5);
+	ustack();
+}</string>
 	<key>name</key>
 	<string>Garbage Collection Total</string>
 	<key>scope</key>
