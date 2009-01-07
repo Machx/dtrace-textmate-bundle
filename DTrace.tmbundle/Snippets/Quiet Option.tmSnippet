@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#pragma D option quiet
+</string>
+	<key>name</key>
+	<string>Quiet Option</string>
+	<key>scope</key>
+	<string>source.d,</string>
+	<key>tabTrigger</key>
+	<string>qo</string>
+	<key>uuid</key>
+	<string>57AD440D-9A4B-45CD-BFBA-1AF143CB66EF</string>
+</dict>
+</plist>

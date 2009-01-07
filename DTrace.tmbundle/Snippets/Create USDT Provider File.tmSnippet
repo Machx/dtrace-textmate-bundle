@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>provider $1 {
+	probe $2($3);
+};
+</string>
+	<key>name</key>
+	<string>Create USDT Provider File</string>
+	<key>scope</key>
+	<string>source.d,</string>
+	<key>tabTrigger</key>
+	<string>usdt</string>
+	<key>uuid</key>
+	<string>7F27E5B4-9447-418B-A7AC-981A0966F1A1</string>
+</dict>
+</plist>

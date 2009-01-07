@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self-&gt;</string>
+	<key>name</key>
+	<string>Thread Local Variable</string>
+	<key>scope</key>
+	<string>source.d,</string>
+	<key>tabTrigger</key>
+	<string>tv</string>
+	<key>uuid</key>
+	<string>A1D5BBCF-6FC2-41A9-867D-18BC9B42A599</string>
+</dict>
+</plist>

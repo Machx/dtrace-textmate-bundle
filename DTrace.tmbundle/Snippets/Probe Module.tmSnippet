@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>probemod</string>
+	<key>name</key>
+	<string>Probe Module</string>
+	<key>scope</key>
+	<string>source.d,</string>
+	<key>tabTrigger</key>
+	<string>pm</string>
+	<key>uuid</key>
+	<string>E4CF7202-C91D-46E6-BFE2-ECFE24FA7D6E</string>
+</dict>
+</plist>

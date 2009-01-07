@@ -1,0 +1,4 @@
+
+provider MyProvider {
+	probe probename();
+};

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>cat usdt.d&gt; "$TM_NEW_FILE"</string>
+	<key>extension</key>
+	<string>d</string>
+	<key>keyEquivalent</key>
+	<string>@`</string>
+	<key>name</key>
+	<string>USDT Provider Template</string>
+	<key>scope</key>
+	<string>text.d</string>
+	<key>uuid</key>
+	<string>455FA245-83FB-452E-ADFE-2EE898E35B74</string>
+</dict>
+</plist>
