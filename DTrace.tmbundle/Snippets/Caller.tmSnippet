@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>caller
+</string>
+	<key>name</key>
+	<string>Caller</string>
+	<key>uuid</key>
+	<string>7D575CB4-5E6E-4607-964F-1BFE18DD2F39</string>
+</dict>
+</plist>

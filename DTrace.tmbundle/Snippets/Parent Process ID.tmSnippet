@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ppid</string>
+	<key>name</key>
+	<string>Parent Process ID</string>
+	<key>uuid</key>
+	<string>DF86C325-17D4-4FC1-9012-CAE8950462CA</string>
+</dict>
+</plist>

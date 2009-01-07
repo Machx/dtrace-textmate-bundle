@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>curthread</string>
+	<key>name</key>
+	<string>Current Thread</string>
+	<key>uuid</key>
+	<string>A96A5D37-D2FD-4039-A234-0BD06A119C26</string>
+</dict>
+</plist>

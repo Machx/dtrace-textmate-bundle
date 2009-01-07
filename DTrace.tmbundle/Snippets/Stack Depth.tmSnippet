@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>stackdepth</string>
+	<key>name</key>
+	<string>Stack Depth</string>
+	<key>uuid</key>
+	<string>1EDA9604-E9EC-4976-B700-B3E8F5EB63BA</string>
+</dict>
+</plist>

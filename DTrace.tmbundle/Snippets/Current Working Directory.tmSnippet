@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>cwd</string>
+	<key>name</key>
+	<string>Current Working Directory</string>
+	<key>uuid</key>
+	<string>E041812A-D5E2-4B64-A4DF-0EAF9EAE0295</string>
+</dict>
+</plist>
