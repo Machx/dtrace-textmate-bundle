@@ -5,11 +5,21 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string># just to remind you of some useful environment variables
-# see Help / Environment Variables for the full list
-echo File: "$TM_FILEPATH"
-echo Word: "$TM_CURRENT_WORD"
-echo Selection: "$TM_SELECTED_TEXT"</string>
+	<string>#!/usr/bin/env python -S
+
+from os import environ as env
+import re
+
+script_text = env['TM_SELECTED_TEXT']
+
+p = re.compile('entry');
+replaced_text = p.sub('return',script_text);
+
+final_text = '\n\n' + replaced_text;
+
+print final_text;</string>
+	<key>fallbackInput</key>
+	<string>none</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
@@ -17,7 +27,7 @@ echo Selection: "$TM_SELECTED_TEXT"</string>
 	<key>name</key>
 	<string>Create Mirror Return Block for Entry Block</string>
 	<key>output</key>
-	<string>replaceSelectedText</string>
+	<string>afterSelectedText</string>
 	<key>scope</key>
 	<string>source.d,</string>
 	<key>uuid</key>

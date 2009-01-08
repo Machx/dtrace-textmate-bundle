@@ -6,8 +6,6 @@
 	<string>cat usdt.d&gt; "$TM_NEW_FILE"</string>
 	<key>extension</key>
 	<string>d</string>
-	<key>keyEquivalent</key>
-	<string>@`</string>
 	<key>name</key>
 	<string>USDT Provider Template</string>
 	<key>scope</key>

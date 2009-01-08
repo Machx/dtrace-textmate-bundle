@@ -13,7 +13,7 @@
 CoreData\$target:CoreData::EndFetch
 {
 	self-&gt;fetchEnd = (vtimestamp - self-&gt; fetchStart) / 1000;
-	printf("Fetch Count: %i Duration: %u",arg0,self-&gt;fetchEnd;
+	printf("Fetch Count: %i Duration: %u",arg0,self-&gt;fetchEnd);
 	ustack();
 }</string>
 	<key>name</key>

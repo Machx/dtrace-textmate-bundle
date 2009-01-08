@@ -3,19 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
-	<string>nop</string>
+	<string>saveActiveFile</string>
 	<key>command</key>
-	<string># just to remind you of some useful environment variables
-# see Help / Environment Variables for the full list
-echo File: "$TM_FILEPATH"
-echo Word: "$TM_CURRENT_WORD"
-echo Selection: "$TM_SELECTED_TEXT"</string>
+	<string>#!/bin/bash
+
+osascript &lt;&lt;- APPLESCRIPT
+	tell app "Terminal"
+	    launch
+	    activate
+	    do script "clear; sudo dtrace -s $(esc "${TM_FILEPATH}")"
+	    set position of first window to { 100, 100 }
+	end tell
+APPLESCRIPT</string>
 	<key>input</key>
-	<string>selection</string>
+	<string>document</string>
 	<key>name</key>
 	<string>Run Script in Terminal</string>
 	<key>output</key>
-	<string>replaceSelectedText</string>
+	<string>discard</string>
 	<key>uuid</key>
 	<string>D2E2A3AF-9E53-4074-84A3-52CEA8257DB1</string>
 </dict>
