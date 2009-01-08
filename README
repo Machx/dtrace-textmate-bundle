@@ -1,3 +1,1 @@
-THIS IS AN INITIAL VERSION OF THE DTRACE BUNDLE
-AS I GET MORE FEATURES/MENU ITEMS WORKING I WILL
-ADD THEM TO THIS REPOSITORY
+This is a bundle for TextMate that adds the D Scripting language for DTrace and several useful DTrace scripts to TextMate. See the "Wiki" section at the top of the page for a more detailed explanation as to what works and what doesn't work right now.
