@@ -9,7 +9,7 @@
 	ustack();
 }
 
-pid$target::WaitNextEvent:return
+pid\$target::WaitNextEvent:return
 {
 	self-&gt;theEvent = (unsigned int)*(uint16_t*)copyin(self-&gt;evtPointer, 4);
 
