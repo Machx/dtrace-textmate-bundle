@@ -3,14 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>probefunc</string>
+	<string>profile-
+</string>
 	<key>name</key>
-	<string>Probe Function</string>
-	<key>scope</key>
-	<string>source.d</string>
-	<key>tabTrigger</key>
-	<string>pf</string>
+	<string>Profile Provider</string>
 	<key>uuid</key>
-	<string>EF3BCC0A-EB19-4697-AF54-588371206AF5</string>
+	<string>3EA6AF4B-7274-4D80-B36A-77D568EBBCA3</string>
 </dict>
 </plist>

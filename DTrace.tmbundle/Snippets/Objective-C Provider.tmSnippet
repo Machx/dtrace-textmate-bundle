@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>probefunc</string>
+	<string>objc</string>
 	<key>name</key>
-	<string>Probe Function</string>
+	<string>Objective-C Provider</string>
 	<key>scope</key>
 	<string>source.d</string>
-	<key>tabTrigger</key>
-	<string>pf</string>
 	<key>uuid</key>
-	<string>EF3BCC0A-EB19-4697-AF54-588371206AF5</string>
+	<string>5E73FED3-DF2A-4E59-AFB1-BE770931E813</string>
 </dict>
 </plist>

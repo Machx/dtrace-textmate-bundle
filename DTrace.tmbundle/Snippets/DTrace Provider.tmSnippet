@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>probefunc</string>
+	<string>dtrace</string>
 	<key>name</key>
-	<string>Probe Function</string>
+	<string>DTrace Provider</string>
 	<key>scope</key>
 	<string>source.d</string>
-	<key>tabTrigger</key>
-	<string>pf</string>
 	<key>uuid</key>
-	<string>EF3BCC0A-EB19-4697-AF54-588371206AF5</string>
+	<string>612813BE-FD95-49F0-BF29-F470619709B4</string>
 </dict>
 </plist>

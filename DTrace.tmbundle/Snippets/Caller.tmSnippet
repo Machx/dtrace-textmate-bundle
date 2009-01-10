@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>caller
-</string>
+	<string>caller</string>
 	<key>name</key>
 	<string>Caller</string>
 	<key>scope</key>

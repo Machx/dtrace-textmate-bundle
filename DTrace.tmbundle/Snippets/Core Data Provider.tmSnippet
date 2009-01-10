@@ -3,14 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>probefunc</string>
+	<string>CoreData</string>
 	<key>name</key>
-	<string>Probe Function</string>
-	<key>scope</key>
-	<string>source.d</string>
-	<key>tabTrigger</key>
-	<string>pf</string>
+	<string>Core Data Provider</string>
 	<key>uuid</key>
-	<string>EF3BCC0A-EB19-4697-AF54-588371206AF5</string>
+	<string>A9DB814D-C716-40B8-8862-F71D40E8CCC1</string>
 </dict>
 </plist>

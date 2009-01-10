@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>probefunc</string>
+	<string>fbt</string>
 	<key>name</key>
-	<string>Probe Function</string>
+	<string>Kernel Function Boundary Tracing Provider</string>
 	<key>scope</key>
 	<string>source.d</string>
-	<key>tabTrigger</key>
-	<string>pf</string>
 	<key>uuid</key>
-	<string>EF3BCC0A-EB19-4697-AF54-588371206AF5</string>
+	<string>456782FC-B723-4069-92CF-7309BFA28618</string>
 </dict>
 </plist>

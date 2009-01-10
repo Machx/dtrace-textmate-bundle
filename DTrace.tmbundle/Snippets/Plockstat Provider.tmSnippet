@@ -3,14 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>probefunc</string>
+	<string>plockstat</string>
 	<key>name</key>
-	<string>Probe Function</string>
-	<key>scope</key>
-	<string>source.d</string>
-	<key>tabTrigger</key>
-	<string>pf</string>
+	<string>Plockstat Provider</string>
 	<key>uuid</key>
-	<string>EF3BCC0A-EB19-4697-AF54-588371206AF5</string>
+	<string>05C2FA4A-D585-48D0-B186-1EDBF93F1445</string>
 </dict>
 </plist>

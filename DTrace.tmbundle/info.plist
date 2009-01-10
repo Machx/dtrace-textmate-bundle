@@ -28,6 +28,7 @@
 			<string>EF3BCC0A-EB19-4697-AF54-588371206AF5</string>
 			<string>C278E2B6-6CC3-4BD7-9D8A-6E9DBB16C777</string>
 			<string>72E90322-D036-459D-A11E-F732CF55F077</string>
+			<string>8675BDE1-C523-4432-BE1A-BE48179B9E09</string>
 			<string>------------------------------------</string>
 			<string>7D9C71BE-950D-4849-8CDC-CBFCE15A4F94</string>
 			<string>9CB0777E-81A4-4D3F-A4B6-1AF40FB118A5</string>
@@ -83,6 +84,23 @@
 				</array>
 				<key>name</key>
 				<string>More DTrace Keywords</string>
+			</dict>
+			<key>8675BDE1-C523-4432-BE1A-BE48179B9E09</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>5E73FED3-DF2A-4E59-AFB1-BE770931E813</string>
+					<string>09D66228-D697-4076-B352-B820C627010B</string>
+					<string>A9DB814D-C716-40B8-8862-F71D40E8CCC1</string>
+					<string>05C2FA4A-D585-48D0-B186-1EDBF93F1445</string>
+					<string>13062991-5A4F-42FB-9F6E-90378E10818D</string>
+					<string>3EA6AF4B-7274-4D80-B36A-77D568EBBCA3</string>
+					<string>456782FC-B723-4069-92CF-7309BFA28618</string>
+					<string>612813BE-FD95-49F0-BF29-F470619709B4</string>
+					<string>FCD547A2-8E7D-48A2-838E-3E0AB6D6450F</string>
+				</array>
+				<key>name</key>
+				<string>List of DTrace Providers</string>
 			</dict>
 		</dict>
 	</dict>
@@ -140,6 +158,15 @@
 		<string>513E69EB-27FD-4F47-848C-772ABA48F081</string>
 		<string>04161AAD-3176-4505-B6B9-5315E1453667</string>
 		<string>18FC8400-6E93-4DDE-8438-262BD3616EAF</string>
+		<string>09D66228-D697-4076-B352-B820C627010B</string>
+		<string>5E73FED3-DF2A-4E59-AFB1-BE770931E813</string>
+		<string>456782FC-B723-4069-92CF-7309BFA28618</string>
+		<string>612813BE-FD95-49F0-BF29-F470619709B4</string>
+		<string>05C2FA4A-D585-48D0-B186-1EDBF93F1445</string>
+		<string>13062991-5A4F-42FB-9F6E-90378E10818D</string>
+		<string>3EA6AF4B-7274-4D80-B36A-77D568EBBCA3</string>
+		<string>FCD547A2-8E7D-48A2-838E-3E0AB6D6450F</string>
+		<string>A9DB814D-C716-40B8-8862-F71D40E8CCC1</string>
 	</array>
 	<key>uuid</key>
 	<string>B888B218-9074-4744-8373-A3965D373883</string>

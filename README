@@ -5,4 +5,5 @@ What's changed since 1.0 Beta 1?
 [FIX] "$target" instead of just "target" is recognized as a DTrace keyword
 [FIX] Many snippets had "source.d," as the scope instead of just "source.d" which meant that the tab triggers extended into any TextMate Document
 [FIX] Many DTrace keywords in the "More DTrace Keywords" had no scope, this has been changed to "source.d"
-[CHANGED] D Script Language Keyboard Shortcut
+[CHANGED] D Script Language Keyboard Shortcut to avoid conflict with "Diff"
+
