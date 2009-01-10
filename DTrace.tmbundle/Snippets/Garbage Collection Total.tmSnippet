@@ -11,7 +11,7 @@
 	<key>name</key>
 	<string>Garbage Collection Total</string>
 	<key>scope</key>
-	<string>source.d,</string>
+	<string>source.d</string>
 	<key>tabTrigger</key>
 	<string>gct</string>
 	<key>uuid</key>

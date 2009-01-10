@@ -21,6 +21,8 @@ APPLESCRIPT</string>
 	<string>Run Script in Terminal</string>
 	<key>output</key>
 	<string>discard</string>
+	<key>scope</key>
+	<string>source.d</string>
 	<key>uuid</key>
 	<string>D2E2A3AF-9E53-4074-84A3-52CEA8257DB1</string>
 </dict>

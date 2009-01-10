@@ -1,1 +1,8 @@
 This is a bundle for TextMate that adds the D Scripting language for DTrace and several useful DTrace scripts to TextMate. See the "Wiki" section at the top of the page for a more detailed explanation as to what works and what doesn't work right now.
+
+What's changed since 1.0 Beta 1?
+[FIX] Target's Trigger (keyboard shortcut "\") has been removed
+[FIX] "$target" instead of just "target" is recognized as a DTrace keyword
+[FIX] Many snippets had "source.d," as the scope instead of just "source.d" which meant that the tab triggers extended into any TextMate Document
+[FIX] Many DTrace keywords in the "More DTrace Keywords" had no scope, this has been changed to "source.d"
+[CHANGED] D Script Language Keyboard Shortcut

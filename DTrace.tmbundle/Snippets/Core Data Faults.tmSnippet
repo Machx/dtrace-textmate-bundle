@@ -33,7 +33,7 @@ CoreData\$target:CoreData::EndRelationshipFault
 	<key>name</key>
 	<string>Core Data Faults</string>
 	<key>scope</key>
-	<string>source.d,</string>
+	<string>source.d</string>
 	<key>tabTrigger</key>
 	<string>cdfa</string>
 	<key>uuid</key>

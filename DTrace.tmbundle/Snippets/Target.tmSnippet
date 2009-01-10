@@ -6,6 +6,8 @@
 	<string>\$target</string>
 	<key>name</key>
 	<string>Target</string>
+	<key>scope</key>
+	<string>source.d</string>
 	<key>tabTrigger</key>
 	<string>tar</string>
 	<key>uuid</key>

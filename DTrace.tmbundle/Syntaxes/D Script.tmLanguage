@@ -11,14 +11,14 @@
 	<key>foldingStopMarker</key>
 	<string>\*\*/|^\s*\}</string>
 	<key>keyEquivalent</key>
-	<string>^~D</string>
+	<string>^~@d</string>
 	<key>name</key>
 	<string>D Script</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(return|target|BEGIN|END|begin|end|entry|option|flowindent|quiet|self|ustack|objc|pid|pidlockstat|pragma|trace|provider|probe|this)\b</string>
+			<string>\b(return|\$target|BEGIN|END|begin|end|entry|option|flowindent|quiet|self|ustack|objc|pid|pidlockstat|pragma|trace|provider|probe|this)\b</string>
 			<key>name</key>
 			<string>keyword.control.d</string>
 		</dict>

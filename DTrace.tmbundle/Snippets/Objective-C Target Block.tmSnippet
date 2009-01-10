@@ -14,7 +14,7 @@
 	<key>name</key>
 	<string>Objective-C Target Block</string>
 	<key>scope</key>
-	<string>source.d,</string>
+	<string>source.d</string>
 	<key>tabTrigger</key>
 	<string>ot</string>
 	<key>uuid</key>

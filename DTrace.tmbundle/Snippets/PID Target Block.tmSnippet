@@ -6,13 +6,15 @@
 	<string>pid\$target:$1:$2:$3
 {
 	$4
-}</string>
+}
+
+</string>
 	<key>keyEquivalent</key>
 	<string>~@t</string>
 	<key>name</key>
 	<string>PID Target Block</string>
 	<key>scope</key>
-	<string>source.d,</string>
+	<string>source.d</string>
 	<key>tabTrigger</key>
 	<string>pt</string>
 	<key>uuid</key>

@@ -21,7 +21,7 @@ pid\$target::WaitNextEvent:return
 	<key>name</key>
 	<string>Carbon Events</string>
 	<key>scope</key>
-	<string>source.d,</string>
+	<string>source.d</string>
 	<key>tabTrigger</key>
 	<string>caev</string>
 	<key>uuid</key>

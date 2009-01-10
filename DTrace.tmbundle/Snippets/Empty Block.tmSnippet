@@ -6,11 +6,13 @@
 	<string>$1:$2:$3:$4
 {
 	$5
-}</string>
+}
+
+</string>
 	<key>name</key>
 	<string>Empty Block</string>
 	<key>scope</key>
-	<string>source.d,</string>
+	<string>source.d</string>
 	<key>tabTrigger</key>
 	<string>db</string>
 	<key>uuid</key>

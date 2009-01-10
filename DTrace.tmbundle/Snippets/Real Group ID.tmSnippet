@@ -6,6 +6,8 @@
 	<string>gid</string>
 	<key>name</key>
 	<string>Real Group ID</string>
+	<key>scope</key>
+	<string>source.d</string>
 	<key>uuid</key>
 	<string>AC7EA4EF-EF50-4F23-8D8C-5DBCB25C6F0D</string>
 </dict>

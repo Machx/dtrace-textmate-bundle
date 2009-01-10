@@ -29,7 +29,7 @@ print final_text;</string>
 	<key>output</key>
 	<string>afterSelectedText</string>
 	<key>scope</key>
-	<string>source.d,</string>
+	<string>source.d</string>
 	<key>uuid</key>
 	<string>3CDF6C76-AED6-4E38-88AE-A02EBD3AE62E</string>
 </dict>

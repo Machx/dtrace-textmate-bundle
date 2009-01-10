@@ -6,6 +6,8 @@
 	<string>vtimestamp</string>
 	<key>name</key>
 	<string>Timestamp (Minus DTrace Overhead)</string>
+	<key>scope</key>
+	<string>source.d</string>
 	<key>uuid</key>
 	<string>A4E4A786-988F-4E85-BFE8-BCDA427D89E4</string>
 </dict>

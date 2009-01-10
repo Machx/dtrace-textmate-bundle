@@ -6,11 +6,13 @@
 	<string>BEGIN
 {
 	$1
-}</string>
+}
+
+</string>
 	<key>name</key>
 	<string>BEGIN Block</string>
 	<key>scope</key>
-	<string>source.d,</string>
+	<string>source.d</string>
 	<key>tabTrigger</key>
 	<string>bb</string>
 	<key>uuid</key>
