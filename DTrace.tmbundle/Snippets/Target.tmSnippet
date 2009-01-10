@@ -4,8 +4,6 @@
 <dict>
 	<key>content</key>
 	<string>\$target</string>
-	<key>keyEquivalent</key>
-	<string>\</string>
 	<key>name</key>
 	<string>Target</string>
 	<key>tabTrigger</key>
