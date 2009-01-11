@@ -13,7 +13,7 @@
 	<key>keyEquivalent</key>
 	<string>^~@d</string>
 	<key>name</key>
-	<string>D Script</string>
+	<string>D</string>
 	<key>patterns</key>
 	<array>
 		<dict>
