@@ -3,13 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>profile-
-</string>
+	<string>vminfo</string>
 	<key>name</key>
-	<string>Profile Provider</string>
+	<string>VMInfo Provider</string>
 	<key>scope</key>
 	<string>source.d</string>
 	<key>uuid</key>
-	<string>3EA6AF4B-7274-4D80-B36A-77D568EBBCA3</string>
+	<string>C918EEED-A524-425D-ADC8-B566B9BDB5F8</string>
 </dict>
 </plist>

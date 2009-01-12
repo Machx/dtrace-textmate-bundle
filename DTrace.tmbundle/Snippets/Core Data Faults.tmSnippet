@@ -14,7 +14,6 @@ CoreData\$target:CoreData::EndFault
 {
 	self-&gt;faultEnd= (vtimestamp - self-&gt;faultStart) / 1000;
 	printf("Fault Duration: %u",self-&gt;faultEnd);
-	ustack();
 }
 
 CoreData\$target:CoreData::BeginRelationshipFault
@@ -28,7 +27,6 @@ CoreData\$target:CoreData::EndRelationshipFault
 {
 	self-&gt;relationshipFaultEnd= (vtimestamp - self-&gt;relationshipFaultStart) / 1000;
 	printf("Relationship Fault Duration: %u",self-&gt;relationshipFaultEnd);
-	ustack();
 }</string>
 	<key>name</key>
 	<string>Core Data Faults</string>

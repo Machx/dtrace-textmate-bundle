@@ -14,7 +14,6 @@ CoreData\$target:CoreData::EndFaultCacheMiss
 {
 	self-&gt;cacheMissEnd = (vtimestamp - self-&gt; cacheMissStart) / 1000;
 	printf("Cache Miss Duration: %u",self-&gt;cacheMissEnd);
-	ustack();
 }
 
 CoreData\$target:CoreData::BeginRelationshipCacheMiss
@@ -28,7 +27,6 @@ CoreData\$target:CoreData::EndRelationshipCacheMiss
 {
 	self-&gt; relationshipCacheMissEnd= (vtimestamp - self-&gt; relationshipCacheMissStart) / 1000;
 	printf("RCM Duration: %u",self-&gt; relationshipCacheMissEnd);
-	ustack();
 }</string>
 	<key>name</key>
 	<string>Core Data Cache Misses</string>

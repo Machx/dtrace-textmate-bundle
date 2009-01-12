@@ -13,7 +13,6 @@ CoreData\$target:CoreData::EndSave
 {
 	self-&gt;saveEnd = (vtimestamp - self-&gt;saveStart) / 1000;
 	trace(self-&gt;saveEnd);
-	ustack();
 }
 
 </string>

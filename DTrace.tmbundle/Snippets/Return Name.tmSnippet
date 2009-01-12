@@ -3,13 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>profile-
-</string>
+	<string>return</string>
 	<key>name</key>
-	<string>Profile Provider</string>
+	<string>Return Name</string>
 	<key>scope</key>
 	<string>source.d</string>
+	<key>tabTrigger</key>
+	<string>re</string>
 	<key>uuid</key>
-	<string>3EA6AF4B-7274-4D80-B36A-77D568EBBCA3</string>
+	<string>F677DA97-FEA5-4AFA-9189-EC66935FE1B3</string>
 </dict>
 </plist>

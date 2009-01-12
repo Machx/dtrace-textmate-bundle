@@ -3,13 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>profile-
-</string>
+	<string>proc</string>
 	<key>name</key>
-	<string>Profile Provider</string>
+	<string>Proc Provider</string>
 	<key>scope</key>
 	<string>source.d</string>
 	<key>uuid</key>
-	<string>3EA6AF4B-7274-4D80-B36A-77D568EBBCA3</string>
+	<string>0EC93E4A-A8BA-4EC1-8B9A-40E27A7DD16D</string>
 </dict>
 </plist>

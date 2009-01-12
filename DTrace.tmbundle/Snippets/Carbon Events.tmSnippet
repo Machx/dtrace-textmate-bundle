@@ -16,7 +16,6 @@ pid\$target::WaitNextEvent:return
 	this-&gt;eventStr = self-&gt;theEvent == 0 ? "Null Event" : self-&gt;theEvent == 1 ? "Mouse Down" : self-&gt;theEvent == 2 ? "Mouse Up" : self-&gt;theEvent == 3 ? "Key Down" : self-&gt;theEvent == 4 ? "Key Up" : self-&gt;theEvent == 5 ? "Auto Key" : self-&gt;theEvent == 6 ? "Update Event" : self-&gt;theEvent == 7 ? "Disk Event" : self-&gt;theEvent == 8 ? "Activate Event" : self-&gt;theEvent == 15 ? "OS Event" : self-&gt;theEvent == 23 ? "High Level Event" : "Unknown";
 
 	printf("Event Kind: %i Event Type: %s",self-&gt;theEvent,this-&gt;eventStr);
-	ustack();
 }</string>
 	<key>name</key>
 	<string>Carbon Events</string>
