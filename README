@@ -1,16 +1,22 @@
 This is a bundle for TextMate that adds the D Scripting language for DTrace and several useful DTrace scripts to TextMate. See the "Wiki" section at the top of the page for a more detailed explanation as to what works and what doesn't work right now.
 
-What's Changed since 1.0 Beta 2?
+What's Changed in 1.0 Beta 3?
+[NEW] Run Script in terminal works! This is very preliminary and works for scripts that don't have "$target" (ones where you would invoke the script with -p) eventually a mechanism will be added so you can specify a pid or select an App to trace before running
+[NEW] Entry & Return DTrace keywords and Tab Triggers
+
 [FIX] Removed Redundant ustack() calls inside the Core Data Snippets
 [FIX] One of the recently added DTrace providers still had boiler text there for some reason, changed this to the provider name
 [FIX] Added the scope ( source.d ) to the newly added DTrace providers that were lacking any scope
 [CHANGED] Changed "D Script" to just "D", screw the other D :P
 
-What's changed since 1.0 Beta 1?
+What's changed in 1.0 Beta 2?
 [ADDED] List of DTrace Providers
+
 [FIX] Target's Trigger (keyboard shortcut "\") has been removed
 [FIX] "$target" instead of just "target" is recognized as a DTrace keyword
 [FIX] Many snippets had "source.d," as the scope instead of just "source.d" which meant that the tab triggers extended into any TextMate Document
 [FIX] Many DTrace keywords in the "More DTrace Keywords" had no scope, this has been changed to "source.d"
 [CHANGED] D Script Language Keyboard Shortcut to avoid conflict with "Diff"
 
+Beta 1
+Initial release

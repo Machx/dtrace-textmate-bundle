@@ -7,6 +7,15 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
+esc () {
+STR="$1" ruby &lt;&lt;"RUBY"
+   str = ENV['STR']
+   str = str.gsub(/'/, "'\\\\''")
+   str = str.gsub(/[\\"]/, '\\\\\\0')
+   print "'#{str}'"
+RUBY
+}
+
 osascript &lt;&lt;- APPLESCRIPT
 	tell app "Terminal"
 	    launch
@@ -14,11 +23,14 @@ osascript &lt;&lt;- APPLESCRIPT
 	    do script "clear; sudo dtrace -s $(esc "${TM_FILEPATH}")"
 	    set position of first window to { 100, 100 }
 	end tell
-APPLESCRIPT</string>
+APPLESCRIPT
+</string>
 	<key>input</key>
 	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>@d</string>
 	<key>name</key>
-	<string>Run Script in Terminal</string>
+	<string>Run DTrace Script in Terminal</string>
 	<key>output</key>
 	<string>discard</string>
 	<key>scope</key>
