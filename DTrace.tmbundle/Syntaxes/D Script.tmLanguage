@@ -6,10 +6,8 @@
 	<array>
 		<string>d</string>
 	</array>
-	<key>foldingStartMarker</key>
-	<string>/\*\*|\{\s*$</string>
-	<key>foldingStopMarker</key>
-	<string>\*\*/|^\s*\}</string>
+	<key>firstLineMatch</key>
+	<string>-[*]-( Mode:)? C -[*]-</string>
 	<key>keyEquivalent</key>
 	<string>^~@d</string>
 	<key>name</key>
@@ -18,9 +16,15 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(return|\$target|BEGIN|END|begin|end|entry|option|flowindent|quiet|self|ustack|objc|pid|pidlockstat|pragma|trace|provider|probe|this)\b</string>
+			<string>\b(return|\$target|BEGIN|END|begin|end|entry|option|flowindent|quiet|self|ustack|pragma|trace|provider|probe|this)\b</string>
 			<key>name</key>
 			<string>keyword.control.d</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(char|short|int|long|long long|int8_t|int16_t|int32_t|int64_t|intptr_t|uint8_t|uint16_t|uint32_t|uint64_t|uintptr_t|float|double|long double)\b</string>
+			<key>name</key>
+			<string>storage.type.d</string>
 		</dict>
 		<dict>
 			<key>begin</key>

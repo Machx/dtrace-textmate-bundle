@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>objc\$target:$1:$2:$3
+	<string>objc\$target:${1:/* Class */}:${2:/* method */}:${3:/* name */}
 {
-	$4
+	${0:/* code */}
 }
 
 </string>

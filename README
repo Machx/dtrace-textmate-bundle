@@ -1,5 +1,9 @@
 This is a bundle for TextMate that adds the D Scripting language for DTrace and several useful DTrace scripts to TextMate. See the "Wiki" section at the top of the page for a more detailed explanation as to what works and what doesn't work right now.
 
+What's Changed in 1.0 Beta 4
+[CHANGED] Cleaning up Menu Structure some menu items have moved around slightly
+[NEW] Scripts in the "More Mac OS X D Scripts" menu
+
 What's Changed in 1.0 Beta 3?
 [NEW] Run Script in terminal works! This is very preliminary and works for scripts that don't have "$target" (ones where you would invoke the script with -p) eventually a mechanism will be added so you can specify a pid or select an App to trace before running
 [NEW] Entry & Return DTrace keywords and Tab Triggers

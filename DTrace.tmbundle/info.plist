@@ -23,10 +23,8 @@
 			<string>0A427DD1-6660-422A-A168-4FA296838E66</string>
 			<string>62C23272-9786-4290-8B6D-D28E57DE4152</string>
 			<string>------------------------------------</string>
-			<string>96E84FB5-996D-49FB-B374-70DD2E8A3883</string>
-			<string>E4CF7202-C91D-46E6-BFE2-ECFE24FA7D6E</string>
-			<string>EF3BCC0A-EB19-4697-AF54-588371206AF5</string>
-			<string>C278E2B6-6CC3-4BD7-9D8A-6E9DBB16C777</string>
+			<string>6A5498A0-2DC4-4FA7-85C8-512F7FF9555A</string>
+			<string>F677DA97-FEA5-4AFA-9189-EC66935FE1B3</string>
 			<string>72E90322-D036-459D-A11E-F732CF55F077</string>
 			<string>8675BDE1-C523-4432-BE1A-BE48179B9E09</string>
 			<string>------------------------------------</string>
@@ -35,38 +33,55 @@
 			<string>04161AAD-3176-4505-B6B9-5315E1453667</string>
 			<string>18FC8400-6E93-4DDE-8438-262BD3616EAF</string>
 			<string>------------------------------------</string>
-			<string>3B6C1576-5838-4C18-AA1A-6E7F928A6EDA</string>
-			<string>0E651AF4-7FA2-4484-B076-C07FC5760BAD</string>
-			<string>443D9794-5939-48FE-9983-C0B9FEE0A4CE</string>
-			<string>896618D0-C5C3-4DEB-BC47-4DED0B045BBD</string>
-			<string>------------------------------------</string>
-			<string>CC3F4EBE-A763-4AD9-9170-E6D49041F0BE</string>
-			<string>61CF5156-121E-4396-9572-FE8078BCCC30</string>
-			<string>------------------------------------</string>
-			<string>718E1C2D-304F-49E3-ACA2-4EE3EC64EE6E</string>
-			<string>9F2B4569-F2C9-4818-B5F6-DC199CC49D94</string>
+			<string>DCCEE209-EDB5-4147-9A9E-F63CD1281E3D</string>
+			<string>354AC0B8-B4F0-4536-A3B3-33F643167614</string>
+			<string>45D7F027-5E5C-45C0-BF92-9878E23DD202</string>
+			<string>3AB83EE4-B21E-4B0A-A92E-377CB9217EFA</string>
 			<string>------------------------------------</string>
 			<string>7F27E5B4-9447-418B-A7AC-981A0966F1A1</string>
 			<string>A86DE8F4-DF6A-4F12-AA14-4722BFDB750C</string>
 			<string>------------------------------------</string>
-			<string>3AB83EE4-B21E-4B0A-A92E-377CB9217EFA</string>
 			<string>D2E2A3AF-9E53-4074-84A3-52CEA8257DB1</string>
 		</array>
 		<key>submenus</key>
 		<dict>
+			<key>354AC0B8-B4F0-4536-A3B3-33F643167614</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>CC3F4EBE-A763-4AD9-9170-E6D49041F0BE</string>
+					<string>61CF5156-121E-4396-9572-FE8078BCCC30</string>
+				</array>
+				<key>name</key>
+				<string>AutoZone Garbage Collector Scripts</string>
+			</dict>
 			<key>3AB83EE4-B21E-4B0A-A92E-377CB9217EFA</key>
 			<dict>
 				<key>items</key>
-				<array/>
+				<array>
+					<string>8747D4C9-C2B4-431C-A5C7-7648E0FDB6CE</string>
+				</array>
 				<key>name</key>
 				<string>More Mac OS X D Scripts</string>
+			</dict>
+			<key>45D7F027-5E5C-45C0-BF92-9878E23DD202</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>718E1C2D-304F-49E3-ACA2-4EE3EC64EE6E</string>
+					<string>9F2B4569-F2C9-4818-B5F6-DC199CC49D94</string>
+				</array>
+				<key>name</key>
+				<string>Cocoa &amp; Carbon Events</string>
 			</dict>
 			<key>72E90322-D036-459D-A11E-F732CF55F077</key>
 			<dict>
 				<key>items</key>
 				<array>
-					<string>6A5498A0-2DC4-4FA7-85C8-512F7FF9555A</string>
-					<string>F677DA97-FEA5-4AFA-9189-EC66935FE1B3</string>
+					<string>96E84FB5-996D-49FB-B374-70DD2E8A3883</string>
+					<string>E4CF7202-C91D-46E6-BFE2-ECFE24FA7D6E</string>
+					<string>EF3BCC0A-EB19-4697-AF54-588371206AF5</string>
+					<string>C278E2B6-6CC3-4BD7-9D8A-6E9DBB16C777</string>
 					<string>7D575CB4-5E6E-4607-964F-1BFE18DD2F39</string>
 					<string>6DEFA5D8-8E95-4CEE-AD5D-D3D0E8FD7E63</string>
 					<string>A96A5D37-D2FD-4039-A234-0BD06A119C26</string>
@@ -85,7 +100,7 @@
 					<string>513E69EB-27FD-4F47-848C-772ABA48F081</string>
 				</array>
 				<key>name</key>
-				<string>More DTrace Keywords</string>
+				<string>DTrace Keywords</string>
 			</dict>
 			<key>8675BDE1-C523-4432-BE1A-BE48179B9E09</key>
 			<dict>
@@ -109,7 +124,19 @@
 					<string>612813BE-FD95-49F0-BF29-F470619709B4</string>
 				</array>
 				<key>name</key>
-				<string>List of DTrace Providers</string>
+				<string>DTrace Providers</string>
+			</dict>
+			<key>DCCEE209-EDB5-4147-9A9E-F63CD1281E3D</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>3B6C1576-5838-4C18-AA1A-6E7F928A6EDA</string>
+					<string>0E651AF4-7FA2-4484-B076-C07FC5760BAD</string>
+					<string>443D9794-5939-48FE-9983-C0B9FEE0A4CE</string>
+					<string>896618D0-C5C3-4DEB-BC47-4DED0B045BBD</string>
+				</array>
+				<key>name</key>
+				<string>Core Data DTrace Scripts</string>
 			</dict>
 		</dict>
 	</dict>
@@ -185,6 +212,7 @@
 		<string>A29115C2-54E4-45EE-A0AF-0EC5B87AC30C</string>
 		<string>6A5498A0-2DC4-4FA7-85C8-512F7FF9555A</string>
 		<string>F677DA97-FEA5-4AFA-9189-EC66935FE1B3</string>
+		<string>8747D4C9-C2B4-431C-A5C7-7648E0FDB6CE</string>
 	</array>
 	<key>uuid</key>
 	<string>B888B218-9074-4744-8373-A3965D373883</string>

@@ -3,19 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>BEGIN
+	<string>syscall::*open*:entry
 {
-	${0:/* code */}
-}
-
-</string>
+	printf("Execname: %s - File: %s",execname,copyinstr(arg0));
+}</string>
 	<key>name</key>
-	<string>BEGIN Block</string>
-	<key>scope</key>
-	<string>source.d</string>
-	<key>tabTrigger</key>
-	<string>bb</string>
+	<string>All file open calls (shows execname and file descriptor)</string>
 	<key>uuid</key>
-	<string>AE60A74C-F91D-423A-AAAA-86EE0C8D71B2</string>
+	<string>8747D4C9-C2B4-431C-A5C7-7648E0FDB6CE</string>
 </dict>
 </plist>
