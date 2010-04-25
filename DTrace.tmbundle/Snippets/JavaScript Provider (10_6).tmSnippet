@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>JavaScriptCore</string>
+	<key>name</key>
+	<string>JavaScript Provider (10.6)</string>
+	<key>uuid</key>
+	<string>CFCDD78A-98F6-4219-B01C-581C8C202324</string>
+</dict>
+</plist>

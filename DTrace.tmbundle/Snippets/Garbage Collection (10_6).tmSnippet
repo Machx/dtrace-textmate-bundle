@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>garbage_collection\$target:::collection_begin
+{
+	self-&amp;gt;collectionString = (arg1 == 0 ? "full" : (arg1 == 1 ? "generational" : "local"));
+	self-&amp;gt;collectionBeginTime = vtimestamp;
+	ustack();
+}
+
+garbage_collection\$target:::collection_end
+{
+	self-&amp;gt;collectionTotalTime = (vtimestamp - self-&amp;gt;collectionBeginTime)/1000;
+
+	printf("\nDuration Time (ms) %d",self-&amp;gt;collectionTotalTime);
+	printf("\n%d Objects Reclaimed (%d bytes) on Thread %x",(int)arg1,(int)arg2,tid);
+	printf("\nCollection Type: %s\n",self-&amp;gt;collectionString);
+	printf("Bytes in use %d",(int)arg4);
+	printf(" Number in Use %d",(int)arg3);
+	ustack();
+}</string>
+	<key>name</key>
+	<string>Garbage Collection (10.6)</string>
+	<key>uuid</key>
+	<string>E13FC0E7-1DF0-4A69-B940-B1B26F01ED2F</string>
+</dict>
+</plist>

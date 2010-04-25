@@ -51,6 +51,7 @@
 				<array>
 					<string>CC3F4EBE-A763-4AD9-9170-E6D49041F0BE</string>
 					<string>61CF5156-121E-4396-9572-FE8078BCCC30</string>
+					<string>E13FC0E7-1DF0-4A69-B940-B1B26F01ED2F</string>
 				</array>
 				<key>name</key>
 				<string>AutoZone Garbage Collector Scripts</string>
@@ -122,6 +123,14 @@
 					<string>8FCDA722-045B-441E-A511-A49A7AD83E0E</string>
 					<string>FCD547A2-8E7D-48A2-838E-3E0AB6D6450F</string>
 					<string>612813BE-FD95-49F0-BF29-F470619709B4</string>
+					<string>CFAF654B-2C76-4B99-A25A-007C07A16408</string>
+					<string>E47E2F8A-433B-4B47-82E0-7E44F56B923C</string>
+					<string>B88E6E1C-CE36-4B30-BF02-55C8EF7C1B8E</string>
+					<string>CFCDD78A-98F6-4219-B01C-581C8C202324</string>
+					<string>5DE7C207-CD25-428D-A8E6-3AA73F7580E3</string>
+					<string>5D540720-C4E6-4F89-9493-C37174639479</string>
+					<string>F62FEF12-73CF-4AF6-8C1C-E920BFFD587A</string>
+					<string>3C692CD7-63D8-4361-8821-89C2627AA91E</string>
 				</array>
 				<key>name</key>
 				<string>DTrace Providers</string>
@@ -213,6 +222,15 @@
 		<string>6A5498A0-2DC4-4FA7-85C8-512F7FF9555A</string>
 		<string>F677DA97-FEA5-4AFA-9189-EC66935FE1B3</string>
 		<string>8747D4C9-C2B4-431C-A5C7-7648E0FDB6CE</string>
+		<string>E47E2F8A-433B-4B47-82E0-7E44F56B923C</string>
+		<string>CFAF654B-2C76-4B99-A25A-007C07A16408</string>
+		<string>E13FC0E7-1DF0-4A69-B940-B1B26F01ED2F</string>
+		<string>B88E6E1C-CE36-4B30-BF02-55C8EF7C1B8E</string>
+		<string>CFCDD78A-98F6-4219-B01C-581C8C202324</string>
+		<string>5DE7C207-CD25-428D-A8E6-3AA73F7580E3</string>
+		<string>5D540720-C4E6-4F89-9493-C37174639479</string>
+		<string>F62FEF12-73CF-4AF6-8C1C-E920BFFD587A</string>
+		<string>3C692CD7-63D8-4361-8821-89C2627AA91E</string>
 	</array>
 	<key>uuid</key>
 	<string>B888B218-9074-4744-8373-A3965D373883</string>

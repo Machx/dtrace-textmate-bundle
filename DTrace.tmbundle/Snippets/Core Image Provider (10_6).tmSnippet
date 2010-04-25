@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CoreImage</string>
+	<key>name</key>
+	<string>Core Image Provider (10.6)</string>
+	<key>uuid</key>
+	<string>CFAF654B-2C76-4B99-A25A-007C07A16408</string>
+</dict>
+</plist>
