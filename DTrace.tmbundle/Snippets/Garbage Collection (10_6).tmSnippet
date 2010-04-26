@@ -5,18 +5,18 @@
 	<key>content</key>
 	<string>garbage_collection\$target:::collection_begin
 {
-	self-&amp;gt;collectionString = (arg1 == 0 ? "full" : (arg1 == 1 ? "generational" : "local"));
-	self-&amp;gt;collectionBeginTime = vtimestamp;
+	self-&gt;collectionString = (arg1 == 0 ? "full" : (arg1 == 1 ? "generational" : "local"));
+	self-&gt;collectionBeginTime = vtimestamp;
 	ustack();
 }
 
 garbage_collection\$target:::collection_end
 {
-	self-&amp;gt;collectionTotalTime = (vtimestamp - self-&amp;gt;collectionBeginTime)/1000;
+	self-&gt;collectionTotalTime = (vtimestamp - self-&gt;collectionBeginTime)/1000;
 
-	printf("\nDuration Time (ms) %d",self-&amp;gt;collectionTotalTime);
+	printf("\nDuration Time (ms) %d",self-&gt;collectionTotalTime);
 	printf("\n%d Objects Reclaimed (%d bytes) on Thread %x",(int)arg1,(int)arg2,tid);
-	printf("\nCollection Type: %s\n",self-&amp;gt;collectionString);
+	printf("\nCollection Type: %s\n",self-&gt;collectionString);
 	printf("Bytes in use %d",(int)arg4);
 	printf(" Number in Use %d",(int)arg3);
 	ustack();
