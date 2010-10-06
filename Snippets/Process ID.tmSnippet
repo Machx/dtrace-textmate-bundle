@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Process ID</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>95A964CA-A6FF-470C-A338-DDD1010AA104</string>
 </dict>

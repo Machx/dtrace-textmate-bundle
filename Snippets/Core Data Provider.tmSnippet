@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Core Data Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>A9DB814D-C716-40B8-8862-F71D40E8CCC1</string>
 </dict>

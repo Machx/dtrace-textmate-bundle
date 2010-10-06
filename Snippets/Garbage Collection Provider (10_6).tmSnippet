@@ -6,6 +6,8 @@
 	<string>garbage_collection</string>
 	<key>name</key>
 	<string>Garbage Collection Provider (10.6)</string>
+	<key>scope</key>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>B88E6E1C-CE36-4B30-BF02-55C8EF7C1B8E</string>
 </dict>

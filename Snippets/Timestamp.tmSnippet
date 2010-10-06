@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Timestamp</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>F8FA647E-73AE-46FA-A83E-F7732AD3BE4E</string>
 </dict>

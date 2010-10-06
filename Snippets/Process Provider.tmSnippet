@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Process Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>09D66228-D697-4076-B352-B820C627010B</string>
 </dict>

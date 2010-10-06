@@ -23,6 +23,8 @@ garbage_collection\$target:::collection_end
 }</string>
 	<key>name</key>
 	<string>Garbage Collection (10.6)</string>
+	<key>scope</key>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>E13FC0E7-1DF0-4A69-B940-B1B26F01ED2F</string>
 </dict>

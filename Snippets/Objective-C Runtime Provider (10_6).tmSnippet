@@ -6,6 +6,8 @@
 	<string>objc_runtime</string>
 	<key>name</key>
 	<string>Objective-C Runtime Provider (10.6)</string>
+	<key>scope</key>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>5DE7C207-CD25-428D-A8E6-3AA73F7580E3</string>
 </dict>

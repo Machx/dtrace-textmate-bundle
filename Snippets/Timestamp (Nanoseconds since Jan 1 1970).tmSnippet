@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Timestamp (Nanoseconds since Jan 1 1970)</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>513E69EB-27FD-4F47-848C-772ABA48F081</string>
 </dict>

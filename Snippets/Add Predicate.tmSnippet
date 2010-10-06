@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Add Predicate</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>tabTrigger</key>
 	<string>/</string>
 	<key>uuid</key>

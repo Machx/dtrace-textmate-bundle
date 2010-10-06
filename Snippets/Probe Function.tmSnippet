@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Probe Function</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>tabTrigger</key>
 	<string>pf</string>
 	<key>uuid</key>

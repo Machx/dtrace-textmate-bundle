@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>Quiet Option</string>
 	<key>scope</key>
-	<string>source.d,</string>
+	<string>source.dtrace</string>
 	<key>tabTrigger</key>
 	<string>qo</string>
 	<key>uuid</key>

@@ -11,20 +11,20 @@
 	<key>keyEquivalent</key>
 	<string>^~@d</string>
 	<key>name</key>
-	<string>D</string>
+	<string>DTrace</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>match</key>
 			<string>\b(return|\$target|BEGIN|END|begin|end|entry|option|flowindent|quiet|self|ustack|pragma|trace|provider|probe|this)\b</string>
 			<key>name</key>
-			<string>keyword.control.d</string>
+			<string>keyword.control.dtrace</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(char|short|int|long|long long|int8_t|int16_t|int32_t|int64_t|intptr_t|uint8_t|uint16_t|uint32_t|uint64_t|uintptr_t|float|double|long double)\b</string>
 			<key>name</key>
-			<string>storage.type.d</string>
+			<string>storage.type.dtrace</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -32,14 +32,14 @@
 			<key>end</key>
 			<string>"</string>
 			<key>name</key>
-			<string>string.quoted.double.d</string>
+			<string>string.quoted.double.dtrace</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\\.</string>
 					<key>name</key>
-					<string>constant.character.escape.d</string>
+					<string>constant.character.escape.dtrace</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -49,20 +49,20 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.d</string>
+							<string>punctuation.definition.comment.dtrace</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>$\n?</string>
 					<key>name</key>
-					<string>comment.line.double-slash.d</string>
+					<string>comment.line.double-slash.dtrace</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>(?&gt;\\\s*\n)</string>
 							<key>name</key>
-							<string>punctuation.separator.continuation.d</string>
+							<string>punctuation.separator.continuation.dtrace</string>
 						</dict>
 					</array>
 				</dict>
@@ -70,7 +70,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>DF242A2B-B035-4797-B4CA-DF9B011A2146</string>
 </dict>

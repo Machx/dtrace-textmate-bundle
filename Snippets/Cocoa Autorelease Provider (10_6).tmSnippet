@@ -7,6 +7,8 @@
 </string>
 	<key>name</key>
 	<string>Cocoa Autorelease Provider (10.6)</string>
+	<key>scope</key>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>E47E2F8A-433B-4B47-82E0-7E44F56B923C</string>
 </dict>

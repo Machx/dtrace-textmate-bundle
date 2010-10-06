@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Current Process Info</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>6DEFA5D8-8E95-4CEE-AD5D-D3D0E8FD7E63</string>
 </dict>

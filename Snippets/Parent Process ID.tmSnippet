@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Parent Process ID</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>DF86C325-17D4-4FC1-9012-CAE8950462CA</string>
 </dict>

@@ -10,7 +10,7 @@
 	<key>name</key>
 	<string>Create USDT Provider File</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>tabTrigger</key>
 	<string>usdt</string>
 	<key>uuid</key>

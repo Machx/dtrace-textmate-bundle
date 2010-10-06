@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Executable Name</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>1698F5C5-1867-4C22-B1CF-9E0A35CFB2B4</string>
 </dict>

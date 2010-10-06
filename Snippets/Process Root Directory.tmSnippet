@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Process Root Directory</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>1DD63C2D-9945-41EF-A0D0-A5C18A7B0032</string>
 </dict>

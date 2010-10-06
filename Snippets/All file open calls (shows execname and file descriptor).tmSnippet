@@ -9,6 +9,8 @@
 }</string>
 	<key>name</key>
 	<string>All file open calls (shows execname and file descriptor)</string>
+	<key>scope</key>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>8747D4C9-C2B4-431C-A5C7-7648E0FDB6CE</string>
 </dict>

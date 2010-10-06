@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>VMInfo Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>C918EEED-A524-425D-ADC8-B566B9BDB5F8</string>
 </dict>

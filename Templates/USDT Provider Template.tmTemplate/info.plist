@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>USDT Provider Template</string>
 	<key>scope</key>
-	<string>text.d</string>
+	<string>text.dtrace</string>
 	<key>uuid</key>
 	<string>455FA245-83FB-452E-ADFE-2EE898E35B74</string>
 </dict>

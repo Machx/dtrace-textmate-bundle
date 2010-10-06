@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Kernel Function Boundary Tracing Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>456782FC-B723-4069-92CF-7309BFA28618</string>
 </dict>

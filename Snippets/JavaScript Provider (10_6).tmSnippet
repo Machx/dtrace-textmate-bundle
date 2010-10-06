@@ -6,6 +6,8 @@
 	<string>JavaScriptCore</string>
 	<key>name</key>
 	<string>JavaScript Provider (10.6)</string>
+	<key>scope</key>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>CFCDD78A-98F6-4219-B01C-581C8C202324</string>
 </dict>

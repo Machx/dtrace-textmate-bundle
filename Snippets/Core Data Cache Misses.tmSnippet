@@ -31,7 +31,7 @@ CoreData\$target:CoreData::EndRelationshipCacheMiss
 	<key>name</key>
 	<string>Core Data Cache Misses</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>tabTrigger</key>
 	<string>cdcm</string>
 	<key>uuid</key>

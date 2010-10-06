@@ -6,6 +6,8 @@
 	<string>QuickLookDaemon</string>
 	<key>name</key>
 	<string>QuickLook Daemon Provider (10.6)</string>
+	<key>scope</key>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>3C692CD7-63D8-4361-8821-89C2627AA91E</string>
 </dict>

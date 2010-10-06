@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>Userland Stack Trace</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>tabTrigger</key>
 	<string>us</string>
 	<key>uuid</key>

@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Probe Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>tabTrigger</key>
 	<string>pp</string>
 	<key>uuid</key>

@@ -6,6 +6,8 @@
 	<string>QLThumbnail</string>
 	<key>name</key>
 	<string>QLThumbnail Provider (10.6)</string>
+	<key>scope</key>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>F62FEF12-73CF-4AF6-8C1C-E920BFFD587A</string>
 </dict>

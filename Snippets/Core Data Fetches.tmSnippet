@@ -20,7 +20,7 @@ CoreData\$target:CoreData::EndFetch
 	<key>name</key>
 	<string>Core Data Fetches</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>tabTrigger</key>
 	<string>cdfe</string>
 	<key>uuid</key>

@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>System Call Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>13062991-5A4F-42FB-9F6E-90378E10818D</string>
 </dict>

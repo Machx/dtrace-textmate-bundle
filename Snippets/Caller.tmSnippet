@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Caller</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>7D575CB4-5E6E-4607-964F-1BFE18DD2F39</string>
 </dict>

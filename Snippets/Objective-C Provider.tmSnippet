@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Objective-C Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>5E73FED3-DF2A-4E59-AFB1-BE770931E813</string>
 </dict>

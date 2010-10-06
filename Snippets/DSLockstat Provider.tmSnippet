@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>DSLockstat Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>81C7D9EC-5E52-439C-90A5-F9458AA2B8C3</string>
 </dict>

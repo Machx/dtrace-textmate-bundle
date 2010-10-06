@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>DTrace Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>612813BE-FD95-49F0-BF29-F470619709B4</string>
 </dict>

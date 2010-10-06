@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>RegexKit Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>09E5BF69-E4B0-47B1-AB30-259DAAC5F611</string>
 </dict>

@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Current Thread</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>A96A5D37-D2FD-4039-A234-0BD06A119C26</string>
 </dict>

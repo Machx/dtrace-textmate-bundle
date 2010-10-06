@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Mach Trap Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>8FCDA722-045B-441E-A511-A49A7AD83E0E</string>
 </dict>

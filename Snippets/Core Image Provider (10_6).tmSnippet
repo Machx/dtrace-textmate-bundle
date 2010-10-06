@@ -6,6 +6,8 @@
 	<string>CoreImage</string>
 	<key>name</key>
 	<string>Core Image Provider (10.6)</string>
+	<key>scope</key>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>CFAF654B-2C76-4B99-A25A-007C07A16408</string>
 </dict>

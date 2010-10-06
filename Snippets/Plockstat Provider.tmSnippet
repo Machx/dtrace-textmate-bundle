@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Plockstat Provider</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>uuid</key>
 	<string>05C2FA4A-D585-48D0-B186-1EDBF93F1445</string>
 </dict>

@@ -19,7 +19,7 @@ CoreData\$target:CoreData::EndSave
 	<key>name</key>
 	<string>Core Data Saves</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>tabTrigger</key>
 	<string>cds</string>
 	<key>uuid</key>

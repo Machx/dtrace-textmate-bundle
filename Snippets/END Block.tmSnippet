@@ -12,7 +12,7 @@
 	<key>name</key>
 	<string>END Block</string>
 	<key>scope</key>
-	<string>source.d</string>
+	<string>source.dtrace</string>
 	<key>tabTrigger</key>
 	<string>eb</string>
 	<key>uuid</key>
